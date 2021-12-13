@@ -62,7 +62,7 @@ task properties_tests(type: Test) {
 
 task many_tags_tests(type: Test) {
     useJUnitPlatform {
-        includeTags "properties"
+        includeTags "registrationPage"
         includeTags "smoke"
         excludeTags "prod"
     }

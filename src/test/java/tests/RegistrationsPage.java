@@ -107,6 +107,7 @@ public class RegistrationsPage {
         $(byText(state)).click();
         return this;
     }
+
     public RegistrationsPage typeCity(String city) {
         $(byText("Select City")).click();
         $(byText(city)).click();

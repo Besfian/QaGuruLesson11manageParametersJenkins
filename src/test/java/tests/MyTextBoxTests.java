@@ -6,6 +6,7 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
@@ -13,7 +14,7 @@ import java.util.List;
 
 import static io.qameta.allure.Allure.step;
 
-
+@Tag("registrationPage")
 public class MyTextBoxTests extends TestBase{
     @BeforeAll
     static void disclosure() {
